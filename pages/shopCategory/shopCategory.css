@@ -1,0 +1,29 @@
+.shopCategoryContainer {
+    position: relative;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-left: 5vw;
+}
+
+.shopCategoryContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.shopCategoryContainer .shopCategoryItemsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1vw;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 2vw;
+}
+
+.shopCategoryContainer .shopCategoryItemsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.shopCategoryContainer .title {
+    font-size: 3vw;
+    font-weight: bold;
+    padding-left: 40vw;
+}

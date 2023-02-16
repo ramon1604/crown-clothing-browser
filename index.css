@@ -1,0 +1,19 @@
+body {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+.link:hover {
+    opacity: 1.0;
+}

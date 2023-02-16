@@ -1,0 +1,49 @@
+.group {
+    position: relative;
+    margin: 2vw 0;
+}
+
+.group .formInput {
+    background: none;
+    background-color: white;
+    color: grey;
+    font-size: 1.8vw;
+    padding: 1vw 1vw 0.2vw 0.2vw;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    margin: 0.5vw 0;
+}
+
+.group .formInput:focus {
+    outline: none;
+}
+
+.group .formInput:focus~.formInputLabel {
+    top: -0.7vw;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.group input[type='password'] {
+    letter-spacing: 0.3vw;
+}
+
+.group .formInputLabel {
+    color: grey;
+    font-size: 1.5vw;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 0.2vw;
+    top: 1vw;
+    transition: 300ms ease all;
+}
+
+.group .formInputLabel.shrink {
+    top: -0.7vw;
+    font-size: 1.5vw;
+    color: black;
+}

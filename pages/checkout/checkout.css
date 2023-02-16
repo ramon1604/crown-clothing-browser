@@ -1,0 +1,50 @@
+.checkoutContainer {
+    position: relative;
+    width: 75%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0;
+    font-size: 2vw;
+}
+
+.checkoutContainer .checkoutHeader {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+}
+
+.checkoutContainer .checkoutHeader .headerBlock {
+    text-align: center;
+    text-transform: capitalize;
+    width: 23%;
+}
+
+.checkoutContainer .checkoutHeader .headerBlock:lastchild {
+    width: 8%;
+}
+
+
+.checkoutContainer .footer {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.checkoutContainer .footer .total {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.checkoutContainer .footer .itemsCount {
+    position: absolute;
+    bottom: 0px;
+    right: 44%;
+}

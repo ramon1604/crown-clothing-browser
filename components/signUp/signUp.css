@@ -1,0 +1,10 @@
+.signUpContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 0 2vw;
+}
+
+.signUpContainer h2 {
+    margin: 0.5vw 0;
+}

@@ -1,0 +1,39 @@
+.cartDropdownContainer {
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    top: 72px;
+    right: 0px;
+    z-index: 15;
+}
+
+.cartDropdownContainer .emptyMessage {
+    font-size: 18px;
+    margin: 50px auto;
+}
+
+.cartDropdownContainer .cartItems {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.cartDropdownContainer button {
+    margin-top: auto;
+}
+
+.cartDropdownContainer .link {
+    text-decoration: none;
+    color: white;
+}
+
+.cartDropdownContainer .link:hover {
+    color: black;
+}

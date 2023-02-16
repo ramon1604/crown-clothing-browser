@@ -1,0 +1,9 @@
+.successContainer {
+    width: 98vw;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20vh;
+    font-size: 2vw;
+    color: green;
+}

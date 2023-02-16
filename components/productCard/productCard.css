@@ -1,0 +1,55 @@
+.productCardContainer {
+    width: 18.3vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.productCardContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productCardContainer button {
+    width: 14vw;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 20%;
+    display: none;
+}
+
+.productCardContainer:hover img {
+    opacity: 0.8;
+}
+
+.productCardContainer:hover button {
+    opacity: 0.5;
+    display: flex;
+}
+
+.productCardContainer .footer {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 1vw 0.4vw 0.2vw 0.2vw;
+}
+
+.productCardContainer .footer .name {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.productCardContainer .footer .price {
+    width: 10%;
+}

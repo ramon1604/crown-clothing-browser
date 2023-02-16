@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./assets/crown-logo.svg" type="image/svg+xml" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown Shopping</title>
+
+    <!--Using NameSpaces-->
+    <script>
+      var globalObjects = {};
+    </script>
+
+    <!--React-->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <!--ReactDOM-->
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!--ReactRouterDOM-->
+    <script src="https://unpkg.com/react-router-dom@5.0.0/umd/react-router-dom.js"></script>
+    <!--ReactRedux-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/8.0.5/react-redux.js"
+      integrity="sha512-1VGFfdp+gU7Gc8QOs1eGcN9asLGDKTTMK66tJ47SiEHjwZjESyDo9UD8HpSf/Ynfw3RxXcsK5leJhrTueu8MGw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--Babel-->
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+    <!--Stripe-->
+    <script src="https://js.stripe.com/v3/"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/react-18-stripe-js@1.7.2/dist/react-stripe.umd.min.js"
+      integrity="sha256-xxK1ulwDSvMVsk5ZJ0Ur//P8YSaGTfEBMCnlEnsA3M8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Libraries-->
+    <script src="./load-scripts/libraries.js"></script>
+
+    <!--index.css-->
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script src="./variables.js"></script>
+
+    <!--Loading Firebase-->
+    <script type="module" src="./utils/firebase/firebase.js"></script>
+    <!--Loading Functions-->
+    <script type="module" src="./utils/functions/functions.js"></script>
+    <!--Loading Methods-->
+    <script type="module" src="./utils/methods/methods.js"></script>
+    <!--Loading Store-->
+    <script type="module" src="./store/store.js"></script>
+    <!--slices Functions-->
+    <script type="module" src="./store/slices/cart/cartFunctions.js"></script>
+
+    <!--Loading Pages-->
+    <script
+      src="./pages/home/home.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <script
+      src="./pages/signPage/signPage.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./pages/signPage/signPage.css" rel="stylesheet" />
+    <script
+      src="./pages/checkout/checkout.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./pages/checkout/checkout.css" rel="stylesheet" />
+    <script
+      src="./pages/shopCategory/shopCategory.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./pages/shopCategory/shopCategory.css" rel="stylesheet" />
+    <script
+      src="./pages/shop/shop.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./pages/shop/shop.css" rel="stylesheet" />
+    <script
+      src="./pages/success/success.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./pages/success/success.css" rel="stylesheet" />
+    <script
+      src="./pages/notFound/notFound.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+
+    <!--Loading Components-->
+    <script
+      src="./components/navbar/navbar.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <script
+      src="./components/spinner/spinner.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/spinner/spinner.css" rel="stylesheet" />
+    <script
+      src="./components/directory/directory.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/directory/directory.css" rel="stylesheet" />
+    <script
+      src="./components/categoryContainer/categoryContainer.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link
+      href="./components/categoryContainer/categoryContainer.css"
+      rel="stylesheet"
+    />
+    <script
+      src="./components/button/button.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/button/button.css" rel="stylesheet" />
+    <script
+      src="./components/cartIcon/cartIcon.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/cartIcon/cartIcon.css" rel="stylesheet" />
+    <script
+      src="./components/cartDropdown/cartDropdown.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/cartDropdown/cartDropdown.css" rel="stylesheet" />
+    <script
+      src="./components/cartItem/cartItem.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/cartItem/cartItem.css" rel="stylesheet" />
+    <script
+      src="./components/checkoutItem/checkoutItem.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/checkoutItem/checkoutItem.css" rel="stylesheet" />
+    <script
+      src="./components/formInput/formInput.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/formInput/formInput.css" rel="stylesheet" />
+    <script
+      src="./components/payment/payment.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <script
+      src="./components/paymentForm/paymentForm.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <script
+      src="./components/productCard/productCard.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/productCard/productCard.css" rel="stylesheet" />
+    <script
+      src="./components/signIn/signIn.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/signIn/signIn.css" rel="stylesheet" />
+    <script
+      src="./components/signUp/signUp.js"
+      type="text/javascript"
+      data-type="module"
+    ></script>
+    <link href="./components/signUp/signUp.css" rel="stylesheet" />
+
+    <!--Main App-->
+    <script src="./app.js" type="text/javascript" data-type="module"></script>
+
+    <!--Running App-->
+    <div id="root" class="root"></div>
+    <script src="./index.js" type="text/babel" data-type="module"></script>
+  </body>
+</html>
