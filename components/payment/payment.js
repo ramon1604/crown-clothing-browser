@@ -44,7 +44,7 @@ const Payment = () => {
     total
       ? React.createElement(
           Button,
-          { type: `button`, btnClass: ``, onClick: paymentHandler },
+          { type: `button`, btnClass: ``, onClick: paymentHandler, style: {margin: "0, 2vw"} },
           "Enable Payment Form"
         )
       : null,

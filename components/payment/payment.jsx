@@ -41,7 +41,7 @@ const Payment = () => {
   return (
     <div>
       {total ? (
-        <Button type={`button`} btnClass={``} onClick={paymentHandler}>
+        <Button type={`button`} btnClass={``} onClick={paymentHandler} style={{margin: "0, 2vw"}}>
           Enable Payment Form
         </Button>
       ) : null}
