@@ -7,4 +7,6 @@ root.render(
     {
       store: globalObjects.store,
     },
-    React.createElement(BrowserRouter, null, React.createE
+    React.createElement(BrowserRouter, null, React.createElement(App, null))
+  )
+);
