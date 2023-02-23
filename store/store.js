@@ -26,3 +26,4 @@ export const store = configureStore({
     }),
 });
 globalObjects.store = store;
+export default store;
